@@ -1,16 +1,15 @@
 body {
-    font-family: 'Ubuntu';
+    font-family: 'Ubuntu' ,system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background-color: #ffffff;
     overflow: auto;
     /* text-align: center; */
 
 }
 
-/* 
 @font-face {
     font-family: 'Ubuntu';
-    src: url('C:/Users/Ali Mardan/AppData/Local/Microsoft/Windows/Fonts/Ubuntu-Regular.ttf') format('truetype');
-} */
+    src: url('https://raw.githubusercontent.com/AliMardanTalpur/alimardantalpur.github.io/main/Ubuntu/Ubuntu-Regular.ttf') format('truetype');
+}
 
 .HalloB,
 .WorldB {
