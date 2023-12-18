@@ -1,18 +1,19 @@
 body {
-    font-family: 'Ubuntu' ,'Helvetica' ,system-ui , -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Ubuntu', 'Helvetica', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background-color: #ffffff;
-    overflow: auto;
+    overflow: scroll;
     /* text-align: center; */
 
 }
+
 @font-face {
     font-family: 'Ubuntu';
-    src: url('https://raw.githubusercontent.com/AliMardanTalpur/alimardantalpur.github.io/main/Ubuntu/Ubuntu-Regular.ttf') format('truetype');
+    src: url('https://github.com/AliMardanTalpur/alimardantalpur.github.io/blob/1e09ab632d12cd9c3bd3cae84a4189043591bfeb/Ubuntu/Ubuntu-Regular.ttf') format('truetype');
 }
-
 
 .HalloB,
 .WorldB {
+    justify-content: center;
     width: 100px;
     height: 30px;
     /* border: hidden; */
@@ -47,17 +48,20 @@ body {
     margin-left: 10%;
 }
 
-.linkPageLinks {
-    color: rgb(255, 163, 26);
-    text-decoration: none;
-}
-
 .navBar {
     display: flex;
     align-items: center;
     font-size: small;
-    height: auto;
     color: #00b03d;
+}
+
+.contectBar {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    display: flex;
+    align-items: center;
+    justify-content  : center;
+    background-color: rgb(8, 6, 17);
 }
 
 .navbarText {
@@ -74,4 +78,19 @@ body {
     width: 25px;
     margin-right: 3%;
     margin-left: 2%;
+}
+
+.CinstagramLogo,
+.ClinkedinLogo,
+.CfacebookLogo,
+.CgmailLogo {
+    filter: invert(1);
+    display: flex;
+    height: 25px;
+    width: 25px;
+    margin-right: 3%;
+    margin-left: 2%;
+/* 
+width: 25px;
+margin: 1%; */
 }
