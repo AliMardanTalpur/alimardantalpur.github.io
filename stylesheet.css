@@ -5,11 +5,11 @@ body {
     /* text-align: center; */
 
 }
-
 @font-face {
     font-family: 'Ubuntu';
-    src: url('https://github.com/AliMardanTalpur/alimardantalpur.github.io/blob/1e09ab632d12cd9c3bd3cae84a4189043591bfeb/Ubuntu/Ubuntu-Regular.ttf') format('truetype');
+    src: url('https://raw.githubusercontent.com/AliMardanTalpur/alimardantalpur.github.io/main/Ubuntu/Ubuntu-Regular.ttf') format('truetype');
 }
+
 
 .HalloB,
 .WorldB {
