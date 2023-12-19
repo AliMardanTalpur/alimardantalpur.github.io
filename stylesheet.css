@@ -2,6 +2,7 @@ body {
     font-family: 'Ubuntu', 'Helvetica', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background-color: #ffffff;
     overflow: scroll;
+    margin: 0px;
     /* text-align: center; */
 
 }
