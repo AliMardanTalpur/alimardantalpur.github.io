@@ -1,9 +1,10 @@
 body {
     font-family: 'Ubuntu', 'Helvetica', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    background-color: #ffffff;
+    background-color: rgb(8, 6, 17);
+    /* background-color: #ffffff; */
     overflow: scroll;
-    margin: 0px;
     /* text-align: center; */
+    margin: 0px;
 
 }
 
@@ -31,15 +32,23 @@ body {
 
 .sec-heading {
     color: black;
+    background-color: #ffffff;
+
 }
 
 .sec-1 {
     /* color: #2f2f2f; */
+    background-color: #ffffff;
     color: #727272;
     font-weight: normal;
     padding: 5%;
-    margin-bottom: 5%;
-    margin-top: 5%;
+    margin: 0px;
+}
+
+.ppBackground {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 0%;
 }
 
 .profileP {
@@ -47,9 +56,11 @@ body {
     width: 80%;
     border-radius: 10%;
     margin-left: 10%;
+    background-color: #ffffff;
 }
 
 .navBar {
+    background-color: #ffffff;
     display: flex;
     align-items: center;
     font-size: small;
@@ -61,8 +72,8 @@ body {
     padding-bottom: 5%;
     display: flex;
     align-items: center;
-    justify-content  : center;
-    background-color: rgb(8, 6, 17);
+    justify-content: center;
+    /* background-color: rgb(8, 6, 17); */
 }
 
 .navbarText {
@@ -78,6 +89,8 @@ body {
     height: 25px;
     width: 25px;
     margin-left: 8%;
+    background-color: #ffffff;
+
 }
 
 .CinstagramLogo,
@@ -90,7 +103,9 @@ body {
     width: 25px;
     margin-right: 3%;
     margin-left: 2%;
-/* 
+    background-color: #ffffff;
+
+    /* 
 width: 25px;
 margin: 1%; */
 }
