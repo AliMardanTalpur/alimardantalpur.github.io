@@ -167,7 +167,12 @@ border-bottom-style: groove;
     background-color: gainsboro;
 }
 
+a{
+    text-decoration: none;
+}
+
 .skillheading {
+    color: black;
     margin: 0%;
 }
 
