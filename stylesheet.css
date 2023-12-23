@@ -55,6 +55,7 @@ body {
     margin-left: 10%;
     background-color: #ffffff;
 }
+
 /* 
 .navBar {
     background-color: #ffffff;
@@ -158,23 +159,24 @@ body {
 
 .skills {
 
-border-top-style: groove;
-border-bottom-style: groove;
+    border-top-style: groove;
+    border-bottom-style: groove;
     border-color: #7777;
     text-align: center;
-    justify-content: center;
     padding: 5%;
     background-color: gainsboro;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
 .skillheading {
     color: black;
-    margin: 0%;
+    margin: 0px;
+    padding: 0px;
 }
+
 
 .java,
 .blender,
@@ -202,36 +204,35 @@ footer {
     margin: 2%;
 }
 
-.backLink{
-padding-left: 3%;
+.backLink {
+    padding-left: 3%;
     display: flex;
     justify-content: flex-start;
     background-color: #ffffff;
 }
-.link{
-color: #00b53f;
-text-decoration: none;
+
+.link {
+    color: #00b53f;
+    text-decoration: none;
 }
 
-.text{
+.text {
     background-color: #ffffff;
     margin: 0%;
     padding: 0%;
 }
 
-.text p{
+.text p {
     margin: 0%;
     padding: 10%;
     text-align: center;
     font-size: larger;
 }
 
-.text h1{
+.text h1 {
     color: #00b03d;
 
     margin: 0%;
     padding: 10%;
     text-align: center;
 }
-
-
