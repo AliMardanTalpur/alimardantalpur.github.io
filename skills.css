@@ -145,23 +145,3 @@ button:hover {
 .cards::-webkit-scrollbar-track {
     background-color: #ececec;
 }
-
-@media only screen and (max-width: 767px) {
-    .cards {
-        overflow-x: auto;
-        -webkit-overflow-scrolling: touch; /* Enable momentum scrolling on iOS devices */
-    }
-
-    .cards::-webkit-scrollbar {
-        height: 10px;
-        width: 10px;
-    }
-
-    .cards::-webkit-scrollbar-thumb {
-        background-color: #00b03d;
-    }
-
-    .cards::-webkit-scrollbar-track {
-        background-color: #ececec;
-    }
-}
