@@ -73,6 +73,7 @@ body {
     margin: 0;
     overflow: hidden;
     display: flex;
+    overflow-x: scroll; /* Show horizontal scrollbar */
 }
 
 .card1,
@@ -106,6 +107,7 @@ body {
     border-top: #cfcfcf;
     border-bottom: #cfcfcf;
 }
+
 .buttonDiv {
     display: flex;
     background-color: white;
@@ -126,4 +128,16 @@ button:hover {
     background-color: #00ce4c; /* Change the color for hover effect */
     color: black;
 
+}
+.cards::-webkit-scrollbar {
+    height: 10px;
+}
+
+.cards::-webkit-scrollbar-thumb {
+    background-color: #00b03d;
+    /* border-radius: 10px; */
+}
+
+.cards::-webkit-scrollbar-track {
+    background-color: #ececec;
 }
