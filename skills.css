@@ -71,7 +71,8 @@ body {
     background-color: #ffffff;
     padding: 2%;
     margin: 0;
-    /* display: flex; */
+    overflow: hidden;
+    display: flex;
 }
 
 .card1,
@@ -79,7 +80,11 @@ body {
 .card3,
 .card4,
 .card5,
-.card6 {
+.card6,
+.card7,
+.card8,
+.card9,
+.card10 {
     display: flex;
     align-items: center;
     margin: 2%;
@@ -100,4 +105,25 @@ body {
     border-left: #cfcfcf;
     border-top: #cfcfcf;
     border-bottom: #cfcfcf;
+}
+.buttonDiv {
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+button {
+    background-color: #00b03d;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: larger;
+}
+button:hover {
+    background-color: #00ce4c; /* Change the color for hover effect */
+    color: black;
+
 }
