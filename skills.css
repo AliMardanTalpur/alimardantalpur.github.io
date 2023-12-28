@@ -73,32 +73,27 @@ body {
     margin: 0;
     overflow: hidden;
     display: flex;
-    overflow-x: scroll; /* Show horizontal scrollbar */
+    overflow-x: scroll;
+    /* Show horizontal scrollbar */
 }
 
 .card1,
 .card2,
 .card3,
 .card4,
-.card5,
-.card6,
-.card7,
-.card8,
-.card9,
-.card10 {
+.card5 {
     display: flex;
     align-items: center;
     margin: 2%;
     padding: 2%;
     font-size: small;
     border-radius: 20px;
-    box-shadow: 0 2px 10px #cfcfcf;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease-in-out;
     background-color: #ffffff;
 }
 
 .cards img {
-    /* margin: 20px; */
-    /* padding: 20px; */
     height: 30px;
     width: 30px;
     margin-right: 20px;
@@ -106,9 +101,16 @@ body {
     padding-right: 20px;
     border-style: groove;
     border-width: 1px;
-    border-left: #cfcfcf;
-    border-top: #cfcfcf;
-    border-bottom: #cfcfcf;
+    border-right-color: gainsboro;
+    border-left: none;
+    border-bottom: none;
+    border-top: none;
+}
+
+
+.card1:hover,.card2:hover,.card3:hover,.card4:hover,.card5:hover {
+    
+    box-shadow: 0 2px 10px rgba(48, 48, 48, 0.5);
 }
 
 .buttonDiv {
@@ -127,10 +129,11 @@ button {
     cursor: pointer;
     font-size: larger;
 }
-button:hover {
-    background-color: #00ce4c; /* Change the color for hover effect */
-    color: black;
 
+button:hover {
+    background-color: #00ce4c;
+    /* Change the color for hover effect */
+    color: black;
 }
 
 .cards::-webkit-scrollbar {
