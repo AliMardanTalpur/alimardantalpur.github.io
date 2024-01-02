@@ -1,6 +1,6 @@
 body {
     font-family: 'Ubuntu', 'Helvetica', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    background-color: rgb(8, 6, 17);
+    background-color: #080611;
     overflow: scroll;
     margin: 0px;
 }
@@ -8,23 +8,6 @@ body {
 @font-face {
     font-family: 'Ubuntu';
     src: url('https://github.com/AliMardanTalpur/alimardantalpur.github.io/blob/1e09ab632d12cd9c3bd3cae84a4189043591bfeb/Ubuntu/Ubuntu-Regular.ttf') format('truetype');
-}
-
-.HalloB,
-.WorldB {
-    justify-content: center;
-    width: 100px;
-    height: 30px;
-    /* border: hidden; */
-    border-color: #00b53f;
-    color: white;
-    font-size: medium;
-    font-weight: 500;
-    background-color: #00b03d;
-    /* box-shadow: inset 0 0 5px rgb(255, 255, 255), 0 0 10px rgb(255, 255, 255); */
-    border-radius: 5px;
-    cursor: pointer;
-    margin: 0 auto;
 }
 
 .sec-heading {
@@ -55,55 +38,6 @@ body {
     margin-left: 10%;
     background-color: #ffffff;
 }
-
-/* 
-.navBar {
-    background-color: #ffffff;
-    display: flex;
-    align-items: center;
-    font-size: small;
-    color: #00b03d;
-}
-
-.contectBar {
-    padding-top: 5%;
-    padding-bottom: 5%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.navbarText {
-    margin-left: 3%;
-    margin-right: 15%;
-}
-
-.instagramLogo,
-.linkedinLogo,
-.facebookLogo,
-.gmailLogo {
-    display: flex;
-    height: 25px;
-    width: 25px;
-    margin-left: 8%;
-    background-color: #ffffff;
-
-}
-
-.CinstagramLogo,
-.ClinkedinLogo,
-.CfacebookLogo,
-.CgmailLogo {
-    filter: invert(1);
-    display: flex;
-    height: 25px;
-    width: 25px;
-    margin-right: 3%;
-    margin-left: 2%;
-    background-color: #ffffff;
-
-} */
-
 
 .navBar {
     background-color: #ffffff;
@@ -177,13 +111,21 @@ a {
     padding: 0px;
 }
 
-
 .java,
 .blender,
-.unity {
+.unity,
+.photoshop {
     height: 40px;
     width: 40px;
     padding: 8%;
+    mix-blend-mode: darken;
+}
+
+.mysql {
+    height: 40px;
+    width: 60px;
+    padding: 8%;
+    mix-blend-mode: darken;
 }
 
 .sec-3 {
@@ -235,4 +177,90 @@ footer {
     margin: 0%;
     padding: 10%;
     text-align: center;
+}
+
+.sec-4 {
+    background-color: #ffffff;
+    font-weight: normal;
+    padding: 5%;
+    margin: 0px;
+    display: flex;
+
+    border-top-style: groove;
+    border-bottom-style: groove;
+    border-color: #7777;
+}
+
+.PBjava,
+.PBblender,
+.PBunity,
+.PBphotoshop {
+    height: 30px;
+    width: 30px;
+    padding-right: 10px;
+}
+
+.PBmysql {
+    height: 30px;
+    width: 30px;
+    padding-right: 10px;
+    mix-blend-mode: hard-light;
+}
+
+.sec-4 p {
+    margin: 3px;
+    color: #727272;
+}
+
+.progressBar {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    margin: 20px;
+    font-size: small;
+}
+
+.progressBar p {
+    text-align: center;
+    color: #ffffff;
+}
+
+.javaProgressBar {
+    height: 100%;
+    width: 100%;
+    padding: 5px;
+    border-radius: 20px;
+    background: linear-gradient(to right, skyblue 100%, #ffffff 30%);
+}
+
+.blenderProgressBar {
+    height: 100%;
+    width: 100%;
+    padding: 5px;
+    border-radius: 20px;
+    background: linear-gradient(to right, orange 90%, #ffffff 10%);
+}
+
+.unityProgressBar {
+    height: 100%;
+    width: 100%;
+    padding: 5px;
+    border-radius: 20px;
+    background: linear-gradient(to right, rgb(100, 100, 100) 80%, #ffffff 20%);
+}
+
+.mySqlProgressBar {
+    height: 100%;
+    width: 100%;
+    padding: 5px;
+    border-radius: 20px;
+    background: linear-gradient(to right, rgb(221, 0, 0) 70%, #ffffff 30%);
+}
+
+.photoShopProgressBar {
+    height: 100%;
+    width: 100%;
+    padding: 5px;
+    border-radius: 20px;
+    background: linear-gradient(to right, rgb(63, 41, 108) 60%, #ffffff 40%);
 }

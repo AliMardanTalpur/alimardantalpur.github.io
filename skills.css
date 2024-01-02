@@ -93,6 +93,10 @@ body {
     background-color: #ffffff;
 }
 
+.card5 img{
+mix-blend-mode: hard-light;
+}
+
 .cards img {
     height: 30px;
     width: 30px;
