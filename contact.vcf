@@ -1,0 +1,9 @@
+BEGIN:VCARD
+VERSION:3.0
+FN:John Doe
+ORG:My Organization
+TITLE:Software Engineer
+TEL;WORK;VOICE:+1234567890
+EMAIL;WORK:john.doe@example.com
+URL:https://mywebsite.com
+END:VCARD
